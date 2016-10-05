@@ -1,6 +1,7 @@
 Module.register("MMM-weekly-schedule",{
 
     defaults: {
+        headerText: "",
 		displaySymbol: true,
 		defaultSymbol: "cutlery", // Fontawesome Symbol see http://fontawesome.io/cheatsheet/
         startDay: 0, // today
