@@ -2,8 +2,8 @@ Module.register("MMM-weekly-schedule",{
 
     defaults: {
         headerText: "",
-		displaySymbol: true,
-		defaultSymbol: "cutlery", // Fontawesome Symbol see http://fontawesome.io/cheatsheet/
+        displaySymbol: true,
+        defaultSymbol: "cutlery", // Fontawesome Symbol see http://fontawesome.io/cheatsheet/
         startDay: 0, // today
         maxResultLength: 2,
         maxDaysAhead: 2,
@@ -14,11 +14,11 @@ Module.register("MMM-weekly-schedule",{
     },
 
     start: function() {
-		var self = this;
-		self.buildDates();
-		setInterval(function() {
-			self.updateDom();
-		}, self.config.updateInterval);
+        var self = this;
+        self.buildDates();
+        setInterval(function() {
+            self.updateDom();
+        }, self.config.updateInterval);
     },
 
     buildDates: function() {
@@ -36,7 +36,7 @@ Module.register("MMM-weekly-schedule",{
         }
     },
 
-	getDom: function() {
+    getDom: function() {
         var self = this;
         var wrapper = document.createElement("div");
         var todayKey = moment().format('YYYYMMDD');
