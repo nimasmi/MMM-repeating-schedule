@@ -6,6 +6,8 @@ This a 3rd party module for [MagicMirror](https://github.com/MichMich/MagicMirro
 
 I made this module so that I could display the regular repeating menu for my children's school dinners. Each week follows one of three menus, so I just have to list the start date for each rotation, and add a reference to an array containing the menu for that rotation.
 
+![screenshot](screenshot.png)
+
 Of course you can use it to display non-repeating or irregular events. I'm not judging.
 
 ## Installation
