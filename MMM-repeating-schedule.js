@@ -1,4 +1,4 @@
-Module.register("MMM-weekly-schedule",{
+Module.register("MMM-repeating-schedule",{
 
     defaults: {
         headerText: "",
@@ -103,7 +103,7 @@ Module.register("MMM-weekly-schedule",{
 
     getStyles: function() {
         return [
-            'MMM-weekly-schedule.css',
+            'MMM-repeating-schedule.css',
         ];
     }
 });

@@ -1,22 +1,22 @@
-.MMM-weekly-schedule .symbol {
+.MMM-repeating-schedule .symbol {
   padding-left: 0;
   padding-right: 10px;
   font-size: 80%;
   text-align: center;
 }
 
-.MMM-weekly-schedule .symbol span {
+.MMM-repeating-schedule .symbol span {
   display: inline-block;
   -ms-transform: translate(0, 2px); /* IE 9 */
   -webkit-transform: translate(0, 2px); /* Safari */
   transform: translate(0, 2px);
 }
 
-.MMM-weekly-schedule td {
+.MMM-repeating-schedule td {
   vertical-align: top;
 }
 
-.MMM-weekly-schedule .time {
+.MMM-repeating-schedule .time {
   padding-right: 30px;
   text-align: left;
 }
