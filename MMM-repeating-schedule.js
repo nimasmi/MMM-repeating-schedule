@@ -13,6 +13,10 @@ Module.register("MMM-repeating-schedule",{
         updateInterval: 1 * 60 * 60 * 1000, // 1 hour
     },
 
+    getScripts: function() {
+        return ["moment.js"];
+    },
+
     start: function() {
         var self = this;
         self.buildDates();
@@ -54,7 +58,7 @@ Module.register("MMM-repeating-schedule",{
                 resultLength < self.config.maxResultLength && self.config.startDay + daysAhead <= self.config.maxDaysAhead;
                 daysAhead++
             ) {
-            
+
             var targetDate = moment(todayKey).add(self.config.startDay + daysAhead, 'days');
             var targetDateKey = targetDate.format('YYYYMMDD');
             var eventText = self.eventDict[targetDateKey];
