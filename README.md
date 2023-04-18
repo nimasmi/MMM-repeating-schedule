@@ -12,7 +12,7 @@ Of course you can use it to display non-repeating or irregular events. I'm not j
 
 ## Installation
 
-As with all modules, navigate to the `modules` directory of your Magic Mirror installation, and `git clone git@github.com:nimasmi/MMM-repeating-schedule.git`.
+As with all modules, navigate to the `modules` directory of your Magic Mirror installation, and `git clone https://github.com/nimasmi/MMM-repeating-schedule.git`.
 
 ## Configuration
 
